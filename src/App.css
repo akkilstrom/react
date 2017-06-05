@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  font-family: courier;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}*/
+header {
+   background-color: #99C794;
+   color: white;
+   height: 15rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+h1 {
+  text-shadow: 5px 6px 0px #222;
+  font-size: 4.5rem;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  line-height: 1.4rem;
+  text-align: left;
+}
+
+a, .counter {
+  font-size: 3rem;
+  line-height: 5rem;
+}
+
+input {
+  border-radius: 4px;
+  border: 1px solid red;
+  padding: 3px;
+  height: 1.5rem;
+  width: 15rem;
+  margin-top: 4rem;
+}
+
+input:focus {
+  border: 2px solid #d65c5c;
+  outline: none;
+}
+
+button {
+  border-radius: 4px;
+  border: 1px solid seagreen;
+  background: none;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.output {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+.sidebar {
+  margin-top: 2rem;
+}
